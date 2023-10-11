@@ -1,0 +1,6 @@
+
+// Use this to find flights on the ground.
+return value.on_ground;
+
+// Use this to find flights in the air.
+return ( value.on_ground ? false : true)
